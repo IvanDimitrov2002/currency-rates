@@ -1,0 +1,25 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    margin: 8rem 0;
+}
+
+.groups {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.group-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.counter {
+    margin-top: auto;
+}

@@ -1,0 +1,21 @@
+{
+    "name": "currency-rates",
+    "version": "0.0.1",
+    "description": "A simple app to get the most recent currency rates.",
+    "author": "Ivan Dimitrov",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IvanDimitrov2002/currency-rates.git"
+    },
+    "devDependencies": {
+        "vite": "^2.6.0"
+    },
+    "dependencies": {
+        "@vitejs/plugin-legacy": "^1.6.1"
+    }
+}
