@@ -38,6 +38,8 @@ getRates(options).then((rates) => {
                 groups[2].querySelector(".group").appendChild(p);
             }
         });
+        
+        console.log("ASDASDA");
 
         groups.forEach(
             (group) =>
