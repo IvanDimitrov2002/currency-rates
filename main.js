@@ -39,6 +39,8 @@ getRates(options).then((rates) => {
             }
         });
 
+        console.log("ASDASDASDAS");
+
         groups.forEach(
             (group) =>
                 (group.querySelector(".counter").innerHTML =
