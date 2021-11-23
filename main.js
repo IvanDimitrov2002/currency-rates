@@ -46,8 +46,6 @@ getRates(options).then((rates) => {
         );
     };
 
-    displayData(select.value);
-
     select.addEventListener("change", (event) => {
         displayData(event.target.value);
     });
